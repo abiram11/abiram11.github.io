@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+#landing-page {
+    text-align: center;
+}
+
+#landing-page h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: red;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#image-container {
+    opacity: 0;
+    transition: opacity 10s;
+}
+
+#image-container img, #gif-container img {
+    max-width: 100%;
+    height: auto;
+}
